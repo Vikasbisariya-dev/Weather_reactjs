@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 76.7,
+        "lat": 25.6667
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 303.24,
+        "feels_like": 310.24,
+        "temp_min": 303.24,
+        "temp_max": 303.24,
+        "pressure": 1001,
+        "humidity": 77,
+        "sea_level": 1001,
+        "grnd_level": 975
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.83,
+        "deg": 83,
+        "gust": 4.11
+    },
+    "clouds": {
+        "all": 87
+    },
+    "dt": 1694694127,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1694651910,
+        "sunset": 1694696388
+    },
+    "timezone": 19800,
+    "id": 1256593,
+    "name": "Sheopur",
+    "cod": 200
+}
