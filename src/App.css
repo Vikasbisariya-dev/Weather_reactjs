@@ -2,7 +2,6 @@
 padding: 10px 33px;
 font-size: 1.2rem;
 border-radius: 25px;
-/* border: 1px solid rgba(255, 255, 255, 0.8); */
 }
 .forecast h1 {
   text-align: center;
@@ -13,118 +12,6 @@ color: #eee;
 font-size: 20px;
 }
 
-
-
-
-
-/*
-body {
-  background: url("./images/bg1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
-.city {
-  width: 60%;
-  height: 100%;
-  float: left;
-  background: url("./images/city.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  min-height: 500px;
-  position: relative;
-  background-position-x: -30px;
-}
-
-/* for city 
-.title {
-  float: right;
-  font-family: "Oxygen", sans-serif;
-  padding: 30px 30px 0 0;
-}
-.title h2 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-/* for time 
-.current-time h2 {
-  font-size: 35px;
-  font-weight: 100;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-}
-
-.current-date {
-  font-size: 18px;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-.dmy {
-  float: left;
-  text-align: left;
-  position: absolute;
-}
-.date-time {
-  position: absolute;
-  bottom: 0;
-  color: #fff;
-  width: 90%;
-  padding: 0 30px 10px 30px;
-  font-family: "Oxygen", sans-serif;
-}
-
-@media screen and (max-width: 1920px) {
-  .container {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .container {
-    width: 55%;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .container {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 966px) {
-  .container {
-    width: 90%;
-  }
-}
-*/
-
-
-/*--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-
-/*-- Reset Code --*/
 
 html,
 body,
@@ -792,22 +679,4 @@ div#txt {
 .footer-info a {
   color: floralwhite;
   font-weight: bold;
-}
-.hh_button {
-  display: inline-block;
-  text-decoration: none;
-  background: linear-gradient(to right, #ff8a00, #da1b60);
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  font-size: 1rem;
-  border-radius: 3px;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  margin-top: 30px;
-  margin: 0px;
-  position: absolute;
-  right: 20px;
-  top: 1.5%;
 }
