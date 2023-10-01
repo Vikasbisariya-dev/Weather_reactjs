@@ -1,1 +1,2 @@
 # [WeatherSearch](https://vikasbisariya-dev.github.io/Weather_reactjs/)
+A Weather_React.js project is a web app that shows real-time weather information for a chosen location. Users input a place, and the app fetches data from a weather API, displaying details like temperature, humidity, and forecasts. It's built using React.js for a dynamic and responsive interface, allowing unit conversion and error handling while using a weather data source like OpenWeatherMap.
