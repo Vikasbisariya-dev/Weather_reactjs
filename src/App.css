@@ -512,12 +512,17 @@ div#txt {
 @media screen and (max-width: 480px) {
   /*--w3layouts--*/
   /*--agileits--*/
+  .forecast {
+    width: 100%;
+    padding-bottom: 0px;
+}
   h1 {
     font-size: 28px;
     letter-spacing: 2px;
   }
   .container {
     margin-bottom: 20px;
+    position: fixed;
   }
   .forecast-icon {
     margin: 40px 0 10px;
@@ -529,7 +534,8 @@ div#txt {
     font-size: 40px;
   }
   .city {
-    min-height: 450px;
+    min-height: 400px;
+    margin-left: 9px;
   }
   .title h2 {
     font-size: 25px;
@@ -560,12 +566,17 @@ div#txt {
   .copyright {
     padding: 20px;
   }
-  .temperature p {
-    font-size: 60px;
+  .temperature p {  
+    font-size: 30px;
     padding-bottom: 15px;
+    text-align: end;
+  }
+  .temperature span{
+    font-size: 30px;
   }
   .forecast-icon img {
     width: 65px;
+    height: 5vh;
   }
   .today-weather h3 {
     font-size: 30px;
@@ -576,7 +587,7 @@ div#txt {
   }
   .container {
     height: 60vh;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .mb-icon {
     top: 20% !important;
@@ -591,6 +602,20 @@ div#txt {
     margin-top: 22px;
     padding: 25px 0px;
   }
+  .current-time h2{
+    margin-left: -168px;
+    font-size: 35px;
+
+  }
+  .forecast {
+    height: 67%;
+}
+.forecast input {
+  padding: 10px 33px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  margin-left: 22px;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -611,6 +636,8 @@ div#txt {
   .temperature p {
     padding-bottom: 15px;
   }
+  
+  
 }
 
 /*-- //Responsive Code --*/
